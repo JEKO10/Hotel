@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Rooms from "./pages/Rooms";
 import About from "./pages/About";
+import Error from "./pages/Error";
 
 function App() {
   return (
@@ -10,13 +11,16 @@ function App() {
       <NavBar></NavBar>
       <Switch>
         <Route exact path="/">
-          <Home></Home>
+          <Home />
         </Route>
         <Route path="/rooms">
-          <Rooms></Rooms>
+          <Rooms />
         </Route>
         <Route path="/about">
-          <About></About>
+          <About />
+        </Route>
+        <Route path="*">
+          <Error />
         </Route>
       </Switch>
     </Router>
