@@ -1,11 +1,19 @@
 @import "config";
 @import "nav";
 @import "hero";
+@import "services";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.underline {
+  width: 10rem;
+  height: 5px;
+  background: $primaryColor;
+  margin: 1.5rem auto;
 }
 
 .error {
