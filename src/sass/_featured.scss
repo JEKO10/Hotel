@@ -1,0 +1,61 @@
+.featured {
+  font-family: $primaryFont;
+  text-align: center;
+  padding: 3rem 0 5rem;
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  > div:not(.underline) {
+    @include flex(space-evenly, center);
+    margin-top: 5rem;
+
+    > div {
+      @include flex(center, center);
+      flex-direction: column;
+      width: 380px;
+      box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+      transition: all 500ms ease;
+
+      .container {
+        position: relative;
+
+        img {
+          display: block;
+          width: 100%;
+        }
+
+        .price {
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.8);
+          color: #fff;
+          padding: 0.3rem 0.6rem 0.5rem;
+          border-bottom-right-radius: 10px;
+          font-size: 0.6rem;
+          text-align: center;
+          width: 30%;
+
+          h2,
+          h3 {
+            font-weight: 500;
+          }
+        }
+      }
+
+      p {
+        background-color: #cfcfcf;
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 5px 0;
+      }
+
+      &:hover {
+        box-shadow: 4px 10px 5px 0 rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}
