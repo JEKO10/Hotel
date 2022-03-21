@@ -16,7 +16,7 @@
       flex-direction: column;
       width: 380px;
       box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-      transition: all 500ms ease;
+      transition: $defaultTransition;
 
       .container {
         position: relative;
@@ -24,6 +24,7 @@
         img {
           display: block;
           width: 100%;
+          transition: $defaultTransition;
         }
 
         .price {
@@ -37,16 +38,55 @@
           font-size: 0.6rem;
           text-align: center;
           width: 30%;
+          transition: $defaultTransition;
 
           h2,
           h3 {
             font-weight: 500;
           }
         }
+
+        a {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          padding: 15px 20px;
+          background-color: $primaryColor;
+          color: #000;
+          font-size: 1.2rem;
+          font-weight: 500;
+          text-transform: uppercase;
+          text-decoration: none;
+          letter-spacing: 3px;
+          transition: $defaultTransition;
+          cursor: pointer;
+          opacity: 0;
+
+          &:hover {
+            background-color: transparent;
+            color: $primaryColor;
+            border: 3px solid $primaryColor;
+          }
+        }
+
+        &:hover {
+          img {
+            filter: brightness(50%);
+          }
+
+          .price {
+            opacity: 0;
+          }
+
+          a {
+            opacity: 1;
+          }
+        }
       }
 
       p {
-        background-color: #cfcfcf;
+        background-color: $primaryColor;
         width: 100%;
         font-size: 1.5rem;
         font-weight: 600;

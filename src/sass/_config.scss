@@ -3,6 +3,7 @@
 $primaryColor: #87ceeb;
 $primaryFont: "Work Sans", sans-serif;
 $secondaryFont: "Antonio", sans-serif;
+$defaultTransition: all 500ms ease;
 
 @mixin flex($justify, $align) {
   display: flex;

@@ -16,6 +16,7 @@ function Featured() {
               <h2>$400</h2>
               <h3>per night</h3>
             </div>
+            <Link to="/rooms">Features</Link>
           </div>
           <p>Double Deluxe</p>
         </div>
@@ -26,6 +27,7 @@ function Featured() {
               <h2>$500</h2>
               <h3>per night</h3>
             </div>
+            <Link to="/rooms">Features</Link>
           </div>
           <p>Family Deluxe</p>
         </div>
@@ -36,6 +38,7 @@ function Featured() {
               <h2>$600</h2>
               <h3>per night</h3>
             </div>
+            <Link to="/rooms">Features</Link>
           </div>
           <p>Presidential</p>
         </div>
