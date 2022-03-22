@@ -1,5 +1,12 @@
+import AboutComponent from "../components/About";
+
 function About() {
-  return <section>About</section>;
+  return (
+    <section className="aboutPage">
+      <header id="hero"></header>
+      <AboutComponent />
+    </section>
+  );
 }
 
 export default About;
