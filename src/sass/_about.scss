@@ -1,5 +1,38 @@
-.aboutPage #hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
-    url("../images/aboutBg.jpg") center/cover no-repeat;
-  min-height: 90vh;
+.aboutPage .hero {
+  background: url("../images/bgAbout.jpg") center/cover no-repeat;
+}
+
+.info {
+  max-width: 80vw;
+  margin: 0 auto;
+  font-family: $primaryFont;
+  padding: 3rem 0;
+
+  p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 1.5rem 0;
+  }
+}
+
+.banner {
+  background: url("../images/banner.jpg") center/cover no-repeat;
+  height: 50vh;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.about {
+  @include flex(space-between, center);
+  max-width: 80vw;
+  margin: 0 auto;
+  font-family: $primaryFont;
+  padding: 3rem 0 5rem;
+  text-align: center;
+
+  p {
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }
