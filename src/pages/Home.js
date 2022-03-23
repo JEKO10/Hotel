@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import Featured from "../components/Featured";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <Hero />
       <Services />
       <Featured />
+      <Footer />
     </section>
   );
 }
