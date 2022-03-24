@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <div>
-        <a href="">Laguna Mini Resort</a>
+        <Link to="/">Laguna Mini Resort</Link>
         <div>
           <Link to="/">Home</Link>
           <Link to="/rooms">Rooms</Link>

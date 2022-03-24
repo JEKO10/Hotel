@@ -1,5 +1,19 @@
+import { Link } from "react-router-dom";
+import AllRooms from "../components/AllRooms";
+
 function Rooms() {
-  return <section>Rooms</section>;
+  return (
+    <section className="roomsPage">
+      <header className="hero">
+        <div>
+          <h1>Our Rooms</h1>
+          <div className="underline"></div>
+          <Link to="/">Back Home</Link>
+        </div>
+      </header>
+      <AllRooms />
+    </section>
+  );
 }
 
 export default Rooms;

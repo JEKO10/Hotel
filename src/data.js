@@ -17,9 +17,7 @@ import img12 from "./images/room-12.jpeg";
 
 export default [
   {
-    sys: {
-      id: 0,
-    },
+    id: 0,
     fields: {
       name: "single economy",
       slug: "single-economy",
@@ -41,42 +39,14 @@ export default [
         "Internet",
         "Comfortable beds",
       ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img1,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-      ],
     },
+    banner: img1,
+    imgOne: room2,
+    imgTwo: room3,
+    imgThree: room4,
   },
   {
-    sys: {
-      id: 1,
-    },
+    id: 1,
     fields: {
       name: "single basic",
       slug: "single-basic",
@@ -98,42 +68,14 @@ export default [
         "Internet",
         "Comfortable beds",
       ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-      ],
     },
+    banner: img2,
+    imgOne: room2,
+    imgTwo: room3,
+    imgThree: room4,
   },
   {
-    sys: {
-      id: 2,
-    },
+    id: 2,
     fields: {
       name: "single standard",
       slug: "single-standard",
@@ -155,42 +97,14 @@ export default [
         "Internet",
         "Comfortable beds",
       ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-      ],
     },
+    banner: img3,
+    imgOne: room2,
+    imgTwo: room3,
+    imgThree: room4,
   },
   {
-    sys: {
-      id: 3,
-    },
+    id: 3,
     fields: {
       name: "single deluxe",
       slug: "single-deluxe",
@@ -212,42 +126,14 @@ export default [
         "Internet",
         "Comfortable beds",
       ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img4,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-      ],
     },
+    banner: img4,
+    imgOne: room2,
+    imgTwo: room3,
+    imgThree: room4,
   },
   {
-    sys: {
-      id: 4,
-    },
+    id: 4,
     fields: {
       name: "double economy",
       slug: "double-economy",
@@ -269,42 +155,14 @@ export default [
         "Internet",
         "Comfortable beds",
       ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img5,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-      ],
     },
+    banner: img5,
+    imgOne: room2,
+    imgTwo: room3,
+    imgThree: room4,
   },
   {
-    sys: {
-      id: 5,
-    },
+    id: 5,
     fields: {
       name: "double basic",
       slug: "double-basic",
@@ -326,42 +184,14 @@ export default [
         "Internet",
         "Comfortable beds",
       ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img6,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-      ],
     },
+    banner: img6,
+    imgOne: room2,
+    imgTwo: room3,
+    imgThree: room4,
   },
   {
-    sys: {
-      id: 6,
-    },
+    id: 6,
     fields: {
       name: "double standard",
       slug: "double-standard",
@@ -383,42 +213,14 @@ export default [
         "Internet",
         "Comfortable beds",
       ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img7,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-      ],
     },
+    banner: img7,
+    imgOne: room2,
+    imgTwo: room3,
+    imgThree: room4,
   },
   {
-    sys: {
-      id: 7,
-    },
+    id: 7,
     fields: {
       name: "double deluxe",
       slug: "double-deluxe",
@@ -440,42 +242,14 @@ export default [
         "Internet",
         "Comfortable beds",
       ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img8,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-      ],
     },
+    banner: img8,
+    imgOne: room2,
+    imgTwo: room3,
+    imgThree: room4,
   },
   {
-    sys: {
-      id: 8,
-    },
+    id: 8,
     fields: {
       name: "family economy",
       slug: "family-economy",
@@ -497,42 +271,14 @@ export default [
         "Internet",
         "Comfortable beds",
       ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img9,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-      ],
     },
+    banner: img9,
+    imgOne: room2,
+    imgTwo: room3,
+    imgThree: room4,
   },
   {
-    sys: {
-      id: 9,
-    },
+    id: 9,
     fields: {
       name: "family basic",
       slug: "family-basic",
@@ -554,42 +300,14 @@ export default [
         "Internet",
         "Comfortable beds",
       ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img10,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-      ],
     },
+    banner: img10,
+    imgOne: room2,
+    imgTwo: room3,
+    imgThree: room4,
   },
   {
-    sys: {
-      id: 10,
-    },
+    id: 10,
     fields: {
       name: "family standard",
       slug: "family-standard",
@@ -611,42 +329,14 @@ export default [
         "Internet",
         "Comfortable beds",
       ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img11,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-      ],
     },
+    banner: img11,
+    imgOne: room2,
+    imgTwo: room3,
+    imgThree: room4,
   },
   {
-    sys: {
-      id: 11,
-    },
+    id: 11,
     fields: {
       name: "family deluxe",
       slug: "family-deluxe",
@@ -668,42 +358,14 @@ export default [
         "Internet",
         "Comfortable beds",
       ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img12,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-      ],
     },
+    banner: img12,
+    imgOne: room2,
+    imgTwo: room3,
+    imgThree: room4,
   },
   {
-    sys: {
-      id: 12,
-    },
+    id: 12,
     fields: {
       name: "presidential",
       slug: "presidential-room",
@@ -725,36 +387,10 @@ export default [
         "Internet",
         "Comfortable beds",
       ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: room1,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-      ],
     },
+    banner: room1,
+    imgOne: room2,
+    imgTwo: room3,
+    imgThree: room4,
   },
 ];
