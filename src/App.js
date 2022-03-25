@@ -5,6 +5,7 @@ import Rooms from "./pages/Rooms";
 import About from "./pages/About";
 import Error from "./pages/Error";
 import ScrollTop from "./components/ScrollTop";
+import SingleRoom from "./components/SingleRoom";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/room/:id">
+          <SingleRoom />
         </Route>
         <Route path="*">
           <Error />

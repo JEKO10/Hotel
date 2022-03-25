@@ -14,7 +14,7 @@ function AllRooms() {
                 <h2>${fields.price}</h2>
                 <h3>per night</h3>
               </div>
-              <Link to="/">More Info</Link>
+              <Link to={`/room/${room.id}`}>More Info</Link>
             </div>
             <p>{fields.name}</p>
           </div>
