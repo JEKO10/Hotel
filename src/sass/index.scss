@@ -5,6 +5,7 @@
 @import "featured";
 @import "about";
 @import "rooms";
+@import "singleRoom";
 @import "footer";
 
 * {
@@ -24,6 +25,7 @@
   @include flex(center, center);
   flex-direction: column;
   min-height: 50vh;
+  font-family: $primaryFont;
 
   h1 {
     font-size: 3.5rem;
