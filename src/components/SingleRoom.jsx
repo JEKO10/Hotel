@@ -35,17 +35,21 @@ function SingleRoom() {
         </div>
         <div>
           <h1>Info</h1>
-          <h3>Price: ${fields.price}</h3>
-          <h3>Size: {fields.size} SQFT</h3>
-          <h3>Max Capacity: {fields.capacity} People</h3>
-          <h3>{fields.pets ? "Pets Allowed" : "No Pets Allowed"}</h3>
+          <ul>
+            <li>Price: ${fields.price}</li>
+            <li>Size: {fields.size} SQFT</li>
+            <li>Max Capacity: {fields.capacity} People</li>
+            <li>{fields.pets ? "Pets Allowed" : "No Pets Allowed"}</li>
+          </ul>
         </div>
       </div>
       <div className="extras">
         <h1>Extras</h1>
-        {fields.extras.map((extra) => (
-          <h3>- {extra}</h3>
-        ))}
+        <ul>
+          {fields.extras.map((extra) => (
+            <li>- {extra}</li>
+          ))}
+        </ul>
       </div>
     </section>
   );

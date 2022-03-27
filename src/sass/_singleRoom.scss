@@ -1,9 +1,64 @@
-.singleRoom .hero {
-  h1 {
-    text-transform: capitalize;
+.singleRoom {
+  font-family: $primaryFont;
+
+  .hero {
+    h1 {
+      text-transform: capitalize;
+    }
+
+    .underline {
+      margin-bottom: 3rem;
+    }
   }
 
-  .underline {
-    margin-bottom: 3rem;
+  .gallery {
+    @include flex(space-between, center);
+    max-width: 80vw;
+    margin: 5rem auto 3rem;
+
+    img {
+      width: 350px;
+    }
+  }
+
+  .details {
+    @include flex(flex-start, baseline);
+    max-width: 80vw;
+    margin: 0 auto;
+
+    h1 {
+      margin-bottom: 1rem;
+    }
+
+    > div:first-of-type {
+      margin-right: 5rem;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    p {
+      max-width: 600px;
+      font-size: 1.1rem;
+      word-spacing: 2px;
+      line-height: 25px;
+    }
+  }
+
+  .extras {
+    max-width: 80vw;
+    margin: 3rem auto;
+
+    h1 {
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+      grid-gap: 2rem;
+    }
   }
 }
