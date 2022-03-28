@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import AllRooms from "../components/AllRooms";
+import Filters from "../components/Filters";
 
 function Rooms() {
   return (
@@ -11,6 +12,7 @@ function Rooms() {
           <Link to="/">Back Home</Link>
         </div>
       </header>
+      <Filters />
       <AllRooms />
     </section>
   );
