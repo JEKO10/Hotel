@@ -36,9 +36,15 @@ function SingleRoom() {
         <div>
           <h1>Info</h1>
           <ul>
-            <li>Price: ${fields.price}</li>
-            <li>Size: {fields.size} SQFT</li>
-            <li>Max Capacity: {fields.capacity} People</li>
+            <li>
+              <span>Price: </span> ${fields.price}
+            </li>
+            <li>
+              <span>Size: </span> {fields.size} SQFT
+            </li>
+            <li>
+              <span>Max Capacity: </span> {fields.capacity} People
+            </li>
             <li>{fields.pets ? "Pets Allowed" : "No Pets Allowed"}</li>
           </ul>
         </div>
