@@ -1,0 +1,42 @@
+.filters {
+  @include flex(space-around, center);
+  max-width: 80vw;
+  margin: 5rem auto 7rem;
+  font-family: $primaryFont;
+
+  > article {
+    @include flex(flex-start, baseline);
+    flex-direction: column;
+    width: 15%;
+
+    .size {
+      @include flex(flex-start, baseline);
+
+      input {
+        width: 40%;
+        padding: 3px;
+        border: 1px solid #222;
+        border-radius: 5px;
+        margin-right: 5px;
+      }
+    }
+
+    label {
+      font-size: 1.1rem;
+      padding-bottom: 10px;
+    }
+
+    select,
+    input:not(#checkbox) {
+      width: 100%;
+      background: transparent;
+      font-size: 1rem;
+    }
+
+    #checkbox {
+      margin-right: 10px;
+      transform: scale(1.2);
+      cursor: pointer;
+    }
+  }
+}

@@ -1,10 +1,8 @@
-import React from "react";
-
 function Filters() {
   return (
     <section className="filters">
       <article>
-        <label for="type">Room Type</label>
+        <label htmlFor="type">Room Type</label>
         <select name="type">
           <option value="all">All</option>
           <option value="single">Single</option>
@@ -14,7 +12,7 @@ function Filters() {
         </select>
       </article>
       <article>
-        <label for="guests">Guests</label>
+        <label htmlFor="guests">Guests</label>
         <select name="guests">
           <option value="1">1</option>
           <option value="2">2</option>
@@ -29,24 +27,24 @@ function Filters() {
         </select>
       </article>
       <article>
-        <label for="price">Room Price</label>
-        <input type="range" name="price" />
+        <label htmlFor="price">Room Price $</label>
+        <input type="range" name="price" min="0" max="600" />
       </article>
       <article>
-        <label for="size">Room Size</label>
-        <div>
-          <input type="number" value="0" />
-          <input type="number" value="1000" />
+        <label htmlFor="size">Room Size</label>
+        <div className="size">
+          <input type="number" defaultValue="0" />
+          <input type="number" defaultValue="1000" />
         </div>
       </article>
       <article>
         <div>
-          <input type="checkbox" name="breakfast" />
-          <label for="breakfast">Breakfast</label>
+          <input type="checkbox" name="breakfast" id="checkbox" />
+          <label htmlFor="breakfast">Breakfast</label>
         </div>
         <div>
-          <input type="checkbox" name="pets" />
-          <label for="pets">Pets</label>
+          <input type="checkbox" name="pets" id="checkbox" />
+          <label htmlFor="pets">Pets</label>
         </div>
       </article>
     </section>
