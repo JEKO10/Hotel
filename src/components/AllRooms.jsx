@@ -1,10 +1,9 @@
-import data from "../data";
 import { Link } from "react-router-dom";
 
-function AllRooms() {
+function AllRooms({ rooms }) {
   return (
     <section className="rooms">
-      {data.map((room) => {
+      {rooms.map((room) => {
         const { fields } = room;
         return (
           <div key={room.id} className="room">
