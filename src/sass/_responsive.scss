@@ -1,0 +1,176 @@
+@include mediaLarge {
+  .services {
+    padding: 3rem 0 1rem;
+
+    > div:not(.underline) {
+      flex-wrap: wrap;
+      margin: 1rem auto 0;
+
+      svg {
+        font-size: 3rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        max-width: 55%;
+      }
+
+      > div {
+        margin: 2rem 0;
+      }
+    }
+  }
+
+  .featured {
+    > div:not(.underline) {
+      width: 90vw;
+      margin: 5rem auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      grid-gap: 3rem;
+
+      > div {
+        width: 350px;
+      }
+    }
+  }
+
+  footer > div {
+    max-width: 90vw;
+  }
+}
+
+@include mediaMedium {
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
+      url("../images/homeBg.jpg") center/cover no-repeat;
+
+    > div {
+      padding: 35px 70px;
+
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      a {
+        font-size: 1.5rem;
+        padding: 10px 25px;
+      }
+    }
+  }
+
+  .services {
+    > div:not(.underline) {
+      p {
+        font-size: 1.2rem;
+        max-width: 85%;
+        line-height: 25px;
+      }
+    }
+  }
+
+  .featured > div:not(.underline) {
+    @include flex(center, center);
+
+    flex-direction: column;
+
+    > div {
+      width: 450px;
+    }
+  }
+
+  footer {
+    height: 25vh;
+
+    > div {
+      @include flex(space-around, center);
+      flex-direction: column;
+    }
+  }
+}
+
+@include mediaMediumLow {
+  .hero {
+    > div {
+      padding: 30px 70px;
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .services h1 {
+    font-size: 3rem;
+  }
+
+  .featured {
+    h1 {
+      font-size: 3rem;
+    }
+
+    > div:not(.underline) {
+      > div {
+        width: 350px;
+      }
+    }
+  }
+}
+
+@include mediaSmall {
+  .hero {
+    > div {
+      padding: 30px 20px;
+    }
+  }
+
+  .services {
+    > div:not(.underline) {
+      p {
+        font-size: 1.2rem;
+        max-width: 90%;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .featured {
+    h1 {
+      font-size: 2.5rem;
+      padding: 0 15px;
+    }
+
+    > div:not(.underline) {
+      > div {
+        width: 280px;
+
+        p {
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+
+  footer {
+    height: 20vh;
+
+    > div {
+      a {
+        font-size: 1.3rem;
+      }
+
+      > div {
+        @include flex(space-between, center);
+        width: 100%;
+
+        a {
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+}
