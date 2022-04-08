@@ -87,6 +87,25 @@
       flex-direction: column;
     }
   }
+
+  .about {
+    max-width: 85vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-gap: 3rem;
+  }
+
+  .banner {
+    max-width: 85vw;
+  }
+
+  .info {
+    max-width: 85vw;
+
+    p {
+      font-size: 1.1rem;
+    }
+  }
 }
 
 @include mediaMediumLow {
@@ -171,6 +190,32 @@
           padding: 0 10px;
         }
       }
+    }
+  }
+
+  .about {
+    img {
+      height: 45px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 90%;
+    }
+  }
+
+  .banner {
+    background: url("../images/banner.jpg") left/cover no-repeat;
+    height: 70vh;
+    max-width: 95vw;
+  }
+
+  .info {
+    padding: 1.5rem 0;
+
+    p {
+      line-height: 25px;
+      text-align: center;
     }
   }
 }
