@@ -53,7 +53,7 @@ function SingleRoom() {
         <h1>Extras</h1>
         <ul>
           {fields.extras.map((extra) => (
-            <li>- {extra}</li>
+            <li key={extra}>- {extra}</li>
           ))}
         </ul>
       </div>

@@ -48,6 +48,21 @@
       width: 90%;
     }
   }
+
+  .singleRoom {
+    .gallery {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      img {
+        margin: 1rem 0.5rem;
+      }
+    }
+
+    .details {
+      max-width: 90vw;
+    }
+  }
 }
 
 @include mediaMediumLarge {
@@ -55,6 +70,25 @@
     place-items: center;
     width: 90vw;
     grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  }
+
+  .singleRoom {
+    .details {
+      flex-direction: column;
+
+      > div:first-of-type {
+        margin-bottom: 2rem;
+        margin-right: 0;
+      }
+
+      p {
+        max-width: 100%;
+      }
+    }
+
+    .extras {
+      max-width: 90vw;
+    }
   }
 }
 
@@ -124,6 +158,14 @@
       font-size: 1.1rem;
     }
   }
+
+  .singleRoom .gallery {
+    justify-content: center;
+
+    img {
+      width: 100%;
+    }
+  }
 }
 
 @include mediaMediumLow {
@@ -169,6 +211,11 @@
 
   .rooms .room {
     width: 400px;
+
+    .container a {
+      font-size: 1rem;
+      padding: 15px 10px;
+    }
   }
 }
 
@@ -275,6 +322,41 @@
 
     .room {
       width: 280px;
+    }
+  }
+
+  .singleRoom {
+    .hero {
+      padding: 25px 10px 45px;
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+
+    .gallery {
+      margin: 2rem auto;
+    }
+
+    .extras ul {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 1rem;
+
+      li {
+        font-size: 1rem;
+      }
+    }
+
+    .details {
+      h1 {
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 20px;
+      }
     }
   }
 }

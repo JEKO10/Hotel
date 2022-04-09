@@ -13,7 +13,7 @@
 
   .gallery {
     @include flex(space-between, center);
-    max-width: 80vw;
+    max-width: 90vw;
     margin: 5rem auto 3rem;
 
     img {
