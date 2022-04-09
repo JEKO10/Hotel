@@ -52,8 +52,8 @@ function Filters({ rooms, setRooms }) {
       <article>
         <label htmlFor="size">Room Size</label>
         <div className="size">
-          <input type="number" name="min" value={0} />
-          <input type="number" name="max" value={1000} />
+          <input type="number" name="min" defaultValue={0} />
+          <input type="number" name="max" defaultValue={1000} />
         </div>
       </article>
       <article>
