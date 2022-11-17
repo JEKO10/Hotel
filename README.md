@@ -13,21 +13,19 @@
 
 ## Project task
 
-This is a solution to the [DevProjects](https://www.codementor.io/projects/web/joke-telling-bot-web-app-cjd2eyrfak). A full-fledged Joke telling robot web app using Web Speech APIs, which can be applied to both web apps and mobile apps.
+I got inspiration from [Codding Addict YouTube video](https://youtu.be/l0JbuMVXaTs). Project is not finished yet.
 
 ## Project overview
 
-I created voice array that takes voices's name from synthesis.getVoices(). Then I fetched Joke API to get jokes and pass them to utterance. If a user clicks on a button for a new joke, before previous is finished, the previous joke stops and new joke will be told. Changing languages is made with options index and id. I displayed languages with map method.
+I used local JSON file for getting rooms data. Home page displays services and featured rooms. There is 4 more pages. Rooms, About us, Error and SingleRoom page for displaying info about selected room. Rooms page displays all rooms and filtering. You are able to filter by room type, number of guests, room price, etc. SingleRoom page displays room images and basic info about selected room like price, size, are pets allowed, extras, etc. Error page just displays link to go back to home page.
 
 ## Built with
 
 - React
 - Sass
-- Web Speech API
-- Joke API
 - JSON
 - GitHub Pages
 
 ## Live preview
 
-[Click for live preview]( https://jeko10.github.io/Joke-telling-bot/)
+[Click for live preview](https://jeko10.github.io/Hotel/#/)
