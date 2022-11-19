@@ -13,11 +13,11 @@
 
 ## Project task
 
-I got inspiration from [Codding Addict YouTube video](https://youtu.be/l0JbuMVXaTs). Project is not finished yet.
+I got inspiration from [Codding Addict YouTube video](https://youtu.be/l0JbuMVXaTs). The project is not finished yet.
 
 ## Project overview
 
-I used local JSON file for getting rooms data. Home page displays services and featured rooms. There is 4 more pages. Rooms, About us, Error and SingleRoom page for displaying info about selected room. Rooms page displays all rooms and filtering. You are able to filter by room type, number of guests, room price, etc. SingleRoom page displays room images and basic info about selected room like price, size, are pets allowed, extras, etc. Error page just displays link to go back to home page.
+I used a local JSON file for getting room data. The home page displays services and featured rooms. There are 4 more pages. Rooms, About us, Error, and SingleRoom page for displaying info about selected room. The Rooms page displays all rooms and filtering. You are able to filter by room type, number of guests, room price, etc. SingleRoom page displays room images and basic info about the selected room like price, size, whether pets are allowed, extras, etc. The error page just displays a link to go back to the home page.
 
 ## Built with
 
